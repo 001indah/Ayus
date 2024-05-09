@@ -31,3 +31,25 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes slide {
+  0% {
+      transform: translateX(50%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+.animate-slide {
+  display: inline-block;
+  animation: slide 10s linear infinite;
+}
+
+/* #hoverImg:hover
+#hoverVisit {
+  transform: scale(1.1); 
+  transition: transform 1000ms ease-in-out;
+  display: block
+}
+ */
