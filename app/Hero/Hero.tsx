@@ -36,12 +36,3 @@ const Hero = () => {
 // ../../../public/hero1.png
 export default Hero
 
-{/* <div className=" bg-background">
-<div className="relative">
-    <img src='Img/hero1.png' alt="#" className="absolute bottom-0 w-90" />
-    <h1 className="absolute text-white text-9xl bottom-20">Webflow Developer - UI/UX Designer</h1>
-    <div className="absolute right-0 bottom-80 h-24 w-96 rounded-full bg-black flex justify-center items-center">
-        <h1 className="text-white text-4xl"><span className="text-5xl">👋</span> Hi I’m Ayush</h1>
-    </div>
-</div>
-</div> */}
