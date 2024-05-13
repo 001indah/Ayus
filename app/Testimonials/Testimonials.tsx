@@ -3,13 +3,13 @@ import React from 'react';
 
 const testimonialIsi = [
     {
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+        content: '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."',
         name: 'Ayush Raj',
         position: 'VP of Marketing @ Webflow',
         photo: "testimonials-photo1.jpeg",
     },
     {
-        content: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam nihil laudantium placeat necessitatibus repellat, laborum, ipsa sint ipsum rerum nostrum perspiciatis. Amet iusto provident ipsam ducimus, vero dolorum fugiat!',
+        content: '"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam nihil laudantium placeat necessitatibus repellat, laborum, ipsa sint ipsum rerum nostrum perspiciatis. Amet iusto provident ipsam ducimus, vero dolorum fugiat!"',
         name: 'Alex Cattoni',
         position: 'Founder @ CopyPossy',
         photo: "testimonials-photo2.jpeg",
@@ -25,7 +25,7 @@ const Testimonials = () => {
                 {/* testimonial function  */}
                 {testimonialIsi.map((testimonial, index) => (
                     <div key={index} className='testimonial-item mb-16'>
-                        <p className='mb-7 leanding-9 text-2xl text-justify ...'>"{testimonial.content}"</p>
+                        <p className='mb-7 leanding-9 text-2xl text-justify ...'>{testimonial.content}</p>
                         {/* dibuat flex */}
                         <div className='flex'>
                             <div className='testimonial-writer-container'>

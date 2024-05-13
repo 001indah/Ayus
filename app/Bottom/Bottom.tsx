@@ -10,7 +10,7 @@ const Bottom = () => {
                             Have something in mind?
                         </h2>
                         <h2 className='flex items-center text-white text-5xl'><img src="footer-photo.png" alt="#" className='w-16 h-16 rounded-full object-cover mr-4' />
-                            let's build it together.</h2>
+                            let&apos;s build it together.</h2>
                     </div>
                     <button className='w-48 h-16 rounded-full bg-white text-black'>Get in touch</button>
                 </div>

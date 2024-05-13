@@ -5,8 +5,6 @@ import Link from 'next/link'
 
 const Navbar: React.FC = () => {
 
-
-
     return (
         <div>
             <nav className="w-full h-20 bg-background text-black top-0 left-0 flex items-center justify-between px-20 z-50">

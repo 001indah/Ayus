@@ -49,7 +49,7 @@ const Button = () => {
                 </button>
             </div>
             <div>
-                <h1 className='bg-black text-white right-0 right-0'>{isClose ? "" : klik}</h1>
+                <h1 className='bg-black text-white right-0'>{isClose ? "" : klik}</h1>
             </div>
 
         </div>
